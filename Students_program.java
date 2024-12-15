@@ -55,7 +55,7 @@ class Students {
         System.out.println("Enter the number of subjects: ");
         int subjects = sc.nextInt();
 
-        // Create two student objects
+    
         Students student1 = new Students(subjects);
         Students student2 = new Students(subjects);
 
@@ -68,6 +68,8 @@ class Students {
         student2.input();
         System.out.println("Details of Student 2:");
         student2.display();
+        System.out.println("Name :  Deepthi M ");
+        System.out.println("USN : 1BM23CS088");
 
         sc.close();
     }
